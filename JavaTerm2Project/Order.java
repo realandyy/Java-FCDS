@@ -34,14 +34,12 @@ public class Order {
         String customerID = "Customer ID: " + cart.getCustomerId() + '\n';
         String products = "Products: \n";
         String totalPrice = "Total Price: $" + cart.calculatePrice() + '\n';           // Order details
-        
+
         orderDetails.setText(orderID + customerID + products + order + totalPrice + "Thanks for shopping!");        // Set order details text
-        
+
         panel.add(orderDetails);        // Add order details text area to the panel
-        
+
         frame.getContentPane().add(panel);          // Add panel to the frame
-        ImageIcon image = new ImageIcon("C:\\Users\\HP\\Downloads\\icon-Copy-2.jpg");
-        frame.setIconImage(image.getImage());
         frame.setSize(400, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);                 // Set frame properties
