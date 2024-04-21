@@ -7,7 +7,7 @@ public class EcommerceSystem {
 
         ElectronicProduct smartphone = new ElectronicProduct(1, "smartphone", 599.9f, "Samsung", 1);
         ClothingProduct tShirt = new ClothingProduct(2, "T-Shirt", 19.99f, "Medium", "Cotton");
-        BookProduct OOP = new BookProduct(3, "OOP", 39.99f, "O'Reilly","X Publications");   //Test products
+        BookProduct OOP = new BookProduct(3, "OOP", 39.99f, "O'Reilly","X Publications");   // Test products
 
         int id;
         String name, address;
