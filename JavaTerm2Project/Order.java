@@ -22,7 +22,7 @@ public class Order {
         // Create JPanel for order details
         JPanel panel = new JPanel();
 
-        JTextArea orderDetails = new JTextArea(10, 30);     // Order details
+        JTextArea orderDetails = new JTextArea(10, 30);
         orderDetails.setEditable(false); // makes it non-editable
 
         String order = "";
