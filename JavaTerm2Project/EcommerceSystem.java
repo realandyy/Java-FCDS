@@ -58,7 +58,6 @@ public class EcommerceSystem {
         if (placeOrder == 1)
             order.printOrderInfo(cart);             // Final receipt of the added products
         else
-
             frame.setVisible(true);             // Frame properties
 
     }
