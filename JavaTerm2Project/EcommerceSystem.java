@@ -47,18 +47,16 @@ public class EcommerceSystem {
 
         frame.setSize(400, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        ImageIcon image = new ImageIcon("C:\\Users\\HP\\Downloads\\icon-Copy-2.jpg");
+
         JTextArea thanks = new JTextArea(10, 30);
         thanks.setEditable(false);
         thanks.setText("Thanks for shopping!");
         panel.add(thanks);
-        frame.getContentPane().add(panel);
-        frame.setIconImage(image.getImage());           // Text to show in case customer does not order
+        frame.getContentPane().add(panel);          // Text to show in case customer does not order
 
         if (placeOrder == 1)
             order.printOrderInfo(cart);             // Final receipt of the added products
         else
             frame.setVisible(true);             // Frame properties
-
     }
 }
